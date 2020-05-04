@@ -1,9 +1,8 @@
 def get_info():
     print('siema, mozesz liczyc')
-def dodaj():
-    print('Wprowadz 2 liczby')
-    a = int(input())
-    b = int(input())
-    print(a+b)
+def dodaj(a,b):
+    wynik=a+b
+    return wynik
 get_info()
-dodaj()
+a=int(input())
+b=int(input())   
