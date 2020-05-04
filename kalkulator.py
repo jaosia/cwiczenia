@@ -6,3 +6,5 @@ def dodaj(a,b):
 get_info()
 a=int(input())
 b=int(input())   
+ 
+print("koniec na dzis")
